@@ -8,3 +8,4 @@ const conpo =()=>{
         </div>
     )
 }
+export default conpo;
