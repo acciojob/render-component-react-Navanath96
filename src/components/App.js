@@ -1,10 +1,11 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
+import conpo from "./conpo";
 
 const App = () => {
   return (
     <div id="main">
-      <P>"I am learning React. My life is getting better."</P>
+     <conpo/>
     </div>
   )
 }
