@@ -5,7 +5,8 @@ import conpo from "./conpo";
 const App = () => {
   return (
     <div id="main">
-     <conpo/>
+     {/* <conpo/> */}
+     <P>"I am learning React. My life is getting better."</P>
     </div>
   )
 }
