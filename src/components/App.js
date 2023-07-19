@@ -1,17 +1,14 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
-import conpo from "./conpo";
+import Comp from "./comp";
 
 const App = () => {
   return (
     <div id="main">
-     {/* <conpo/> */}
-     <P>"I am learning React. My life is getting better."</P>
+      <Comp/>
     </div>
   )
 }
 
 
-export default  App;
-
-
+export default App;
